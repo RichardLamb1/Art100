@@ -1,0 +1,119 @@
+body {
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../../media/examples/lizard.png"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/wallpaper.jpeg") no-repeat center fixed;
+    background-size: cover;
+}
+.messy-desktop-title {
+    color: white;
+    font-family:"Jersey 25";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(65deg);
+    z-index: -1;
+}
+.messy-desktop-subtitle {
+    color: white;
+    font-family:"Windsong";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 93%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    z-index: -1;
+}
+.desktop-icons {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    margin: 12px;
+    margin-top: 32px;
+    width: 128px;
+    z-index: -1;
+}
+.desktop-icons img {
+    max-width: 32px;
+    padding-left: 48px;
+}
+.desktop-icons p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.desktop-icons-individual {
+    padding: 4px;
+    margin-bottom: 28px;
+    z-index: -1;
+}
+.desktop-icons-individual:hover {
+    background: linear-gradient(rgba(0, 174, 255, 0.8), rgba(0, 13, 255, 0.8));
+    border-radius: 12px;
+}
+.desktop-background-explanation {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    margin: 16px;
+    margin-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 256px;
+    position: absolute;
+    top: 48%;
+    left: 12%;
+    z-index: -1;
+}
+.desktop-window {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6));
+    border-radius: 4px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    padding: 4px;
+    position: absolute;
+    backdrop-filter: blur(10px);
+}
+.desktop-window h1 {
+    border-radius: 4px;
+    margin: 0px;
+    margin-left: 4px;
+    margin-bottom: 12px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.desktop-window p {
+    border-radius: 4px;
+    color: white;
+    margin: 0px;
+    margin-left: 4px;
+    margin-bottom: 12px;
+}
+.desktop-window a {
+    color: lightblue;
+}
+.desktop-window img {
+    max-width: 75%;
+    max-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+.desktop-window span {
+    color: red;
+}

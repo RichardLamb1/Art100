@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <title>Art 100 Project</title>
+    </head>
+    <body>
+        <div class="messy-desktop-title">
+            <h1>My Messy Desktop</h1>
+        </div>
+        <div class="messy-desktop-subtitle">
+            <h1>Rick<br>Lamb</h1>
+        </div>
+        <div class="desktop-icons" id="desktop-icons-list">
+            <script src="desktop-icons.js"></script>
+        </div>
+        <div class="desktop-background-explanation">
+            <h1>The Wallpaper</h1>
+            <p>This is a picture I took of Lake Mendota from the Lakeshore Path on a cloudy day. I used it as one of my subjects for my photography assignment.</p>
+        </div>
+        <div id="div-desktop-windows">
+            <script src="desktop-window.js"></script>
+            <div class="desktop-window" id="window-welcome" style="top: 17%; left:47%; width:400px;z-index: 0;">
+                <h1>Welcome.txt</h1>
+                <p>Welcome to Rick Lamb's Art 100 Project! This is an interactive web page, and you can click on any of the "files" to the left to view my highlighted works from the semester.</p>
+                <p>You can also drag around these windows!</p>
+                <p>Feel free to take some time and play around with my project. I probably spent way too much time working on this, but I really like the way it turned out. Enjoy!</p>
+            </div>
+            <div class="desktop-window" id="window-credits" style="top: 60%; left:50%; width:300px;z-index: 1;">
+                <h1>Credits.txt</h1>
+                <p>A special thanks to the following open-source projects for making my project possible:</p>
+                <ul>
+                    <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+                </ul>
+            </div>
+            <div class="desktop-window" id="window-test" style="top: 20%; left:50%; width:512px;z-index: 0;" hidden>
+                <span class="material-symbols-outlined" style="position: absolute; top: 0%; left: 100%; transform: translate(-24px, 0px);">close</span>
+                <h1>Test Window</h1>
+                <img src="assets/en-plein-air.jpg">
+                <p>This is a window I made when I was testing my code. You shouldn't see this window. If you managed to activate it, congratulations!</p>
+            </div>
+            <script>
+                // allow dragging of default windows
+                dragElement(document.getElementById("window-welcome"));
+                dragElement(document.getElementById("window-credits"));
+                //dragElement(document.getElementById("window-test"));
+            </script>
+        </div>
+    </body>
+</html>
