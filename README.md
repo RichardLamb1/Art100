@@ -1,2 +1,1 @@
-# Test Repository for Eclipse
-There is nothing meaningful here.
+# Art 100 Website
